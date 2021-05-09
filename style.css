@@ -1,9 +1,9 @@
 /* Root */
-/* body {
+body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-} */
+}
 .h1 {
   color: #fff;
   font-family: 'poppins', sans-serif;
@@ -178,13 +178,13 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  .navbar {
+  /* .navbar {
     width: 100%;
     margin: auto;
     position: fixed;
-    /* z-index: 4; */
+    z-index: 4;
     background-color: rgba(1, 5, 38, 0.938);
-  }
+  } */
 
   /* jumbotron */
   .jumbotron {
@@ -217,13 +217,13 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .navbar {
+  /* .navbar {
     width: 100%;
     margin: auto;
     position: fixed;
-    /* z-index: 4; */
+    z-index: 4;
     background-color: rgba(1, 5, 38, 0.938);
-  }
+  } */
   /* jumbotron */
   .jumbotron {
     height: 900px;
