@@ -187,7 +187,7 @@ body {
 @media (max-width: 991.98px) {
   .navbar {
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
     position: fixed;
     z-index: 4;
     background-color: rgba(1, 5, 38, 0.938);
