@@ -47,7 +47,7 @@ body {
 
 /* Navbar */
 .navbar {
-  position: relative;
+  /* position: relative; */
   z-index: 12;
   background-color: rgba(1, 5, 38, 0.144);
 }
@@ -187,9 +187,9 @@ body {
 @media (max-width: 991.98px) {
   .navbar {
     width: 100%;
-    /* margin: auto; */
+    margin: auto;
     position: fixed;
-    z-index: 4;
+    /* z-index: 4; */
     background-color: rgba(1, 5, 38, 0.938);
   }
 
@@ -224,6 +224,13 @@ body {
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .navbar {
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    /* z-index: 4; */
+    background-color: rgba(1, 5, 38, 0.938);
+  }
   /* jumbotron */
   .jumbotron {
     height: 900px;
