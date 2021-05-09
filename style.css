@@ -176,13 +176,6 @@ body {
 }
 /* lastsection our service and project */
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .jumbotron {
-    margin-top: -75px;
-  }
-}
-
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   .navbar {
@@ -244,4 +237,20 @@ body {
     border: 6px solid #f3f3f3;
   }
   /* jumbotron */
+
+  /* our service */
+  .ourQuality {
+    height: 650px;
+  }
+  .v-tablet-less {
+    height: 567px;
+  }
+  .v-tablet-less img {
+    width: 450;
+    height: 326.17px;
+  }
+  #background .colom {
+    width: 400px;
+    flex-direction: row;
+  }
 }
