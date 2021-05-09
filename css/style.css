@@ -1,0 +1,161 @@
+/* Root */
+body {
+  margin: 0;
+  padding: 0;
+}
+.h1 {
+  color: #fff;
+  font-family: 'poppins', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.p1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #b9b9b9;
+}
+.p2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #cbcbcb;
+}
+/* Last Root */
+
+/* Navbar */
+.navbar {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(1, 5, 38, 0.144);
+}
+.navbar-brand img {
+  width: 101px;
+  height: 40px;
+}
+/* Last Navbar */
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  height: 1000px;
+  background-image: url(../asset/img/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+  background-size: cover;
+  border-radius: 0px 0px 50px 50px;
+}
+.jumbotron::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(2, 4, 22, 0.58) -38.8%, rgba(2, 4, 24, 0.99) 85.25%);
+  border-radius: 0px 0px 50px 50px;
+  bottom: 0;
+}
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+  width: 65%;
+  height: 255px;
+  text-align: center;
+  margin: auto;
+  transform: translateY(250px);
+}
+.jumbotron a {
+  text-decoration: none;
+}
+.jumbotron .button {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 255px;
+  height: 58px;
+  background-color: #0016cc;
+  border-radius: 5px;
+  border: none;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  height: 511px;
+  margin: auto;
+  margin-top: 100px;
+  background-image: url(../asset/img/arif-riyanto-vJP-wZ6hGBg-unsplash.jpg);
+  background-size: cover;
+  background-color: rgba(1, 5, 38, 0.6);
+  border: 8px solid #f3f3f3;
+  box-sizing: border-box;
+  box-shadow: 23px 60px 70px -26px rgba(1, 5, 38, 0.2);
+  border-radius: 20px;
+}
+.banner::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 13px;
+  background-color: rgba(1, 5, 38, 0.6);
+  bottom: 0;
+}
+/* Last Jumbotron */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .jumbotron {
+    margin-top: -75px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .navbar {
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    z-index: 4;
+    background-color: rgba(1, 5, 38, 0.938);
+  }
+
+  /* jumbotron */
+  .jumbotron {
+    height: 900px;
+  }
+  .jumbotron.container {
+    width: 75%;
+  }
+  .banner {
+    height: 307.01px;
+  }
+  /* last jumbotron */
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .jumbotron {
+    height: 1000px;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* jumbotron */
+  .jumbotron {
+    height: 900px;
+  }
+  .jumbotron .container {
+    width: 378px;
+    transform: translateY(220px);
+  }
+  .banner {
+    height: 202.88px;
+    border: 6px solid #f3f3f3;
+  }
+  /* jumbotron */
+}
