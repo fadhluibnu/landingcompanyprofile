@@ -5,6 +5,12 @@ body {
   margin: 0;
   padding: 0;
 }
+section,
+nav,
+div {
+  margin: 0;
+  padding: 0;
+}
 .h1 {
   color: #fff;
   font-family: 'poppins', sans-serif;
@@ -150,6 +156,7 @@ body {
 .v-tablet-less {
   display: flex;
   flex-direction: column;
+  width: auto;
   height: 757.98px;
   align-items: center;
   justify-content: space-between;
